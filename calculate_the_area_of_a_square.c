@@ -5,17 +5,17 @@
 
 int main() {
 
-    int side_one, side_two;
+    int side_one;
 
     printf("Enter the first side value: ");
     scanf("%d", &side_one);
 
-    printf("Enter the second side value: ");
-    scanf("%d", &side_two);
+    // printf("Enter the second side value: ");
+    // scanf("%d", &side_two);
 
     int area_square;
 
-    area_square = side_one * side_two;
+    area_square = side_one * side_one;
 
     printf("The area of a square: %d\n", area_square);
 
