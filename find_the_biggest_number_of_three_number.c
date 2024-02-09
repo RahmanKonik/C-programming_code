@@ -24,7 +24,7 @@ int main() {
     } else if (number_one == number_two || number_one == number_three ) {
         printf(" Big is number is %d and all are equal. ", number_three);
     } else {
-        printf(" Big is number is %d than %d and %d ", number_three, number_one, number_three);
+        printf(" Big is number is %d than %d and %d ", number_three, number_one, number_two);
     }
 
     return 0;
